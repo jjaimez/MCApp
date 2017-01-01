@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MCApp</string>
+    <string name="share">Share</string>
+    <string name="solo">practice</string>
+    <string name="battle">battle</string>
+    <string name="records">recordings</string>
+    <string name="free">free</string>
+    <string name="concept">concept</string>
+    <string name="textTimeImprovisation">120 seconds</string>
+    <string name="textConcept">Time between concepts</string>
+    <string name="textTimeConcept">15 seconds</string>
+    <string name="textParticipants">Time between MCs</string>
+    <string name="textTimeParticipants">10 seconds</string>
+    <string name="record">record</string>
+    <string name="next">next</string>
+    <string name="textImprovisation">improvisation time</string>
+    <string name="startIn">Start in</string>
+    <string name="secondsRemaining">seconds remaining</string>
+    <string name="opponentTurn">Opponent\'s turn, starts in</string>
+    <string name="done">done</string>
+    <string name="delete">delete</string>
+    <string name="acceptPermissions">If you don\'t accept the permissions, you will not able to use the app</string>
+    <string name="seconds">seconds</string>
+    <string name="nextMC">Next MC starts in:</string>
+</resources>

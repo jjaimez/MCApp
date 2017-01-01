@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutGrande"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+
+
+    tools:context=".MainActivity"
+    style="@style/AppTheme"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:gravity="center">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tecpro.mcapp.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wall">
+
+   <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/solo"
+       android:id="@+id/individual"
+       android:layout_gravity="center_horizontal"
+       android:onClick="onClick"
+       android:textSize="50dp"
+       android:textColor="@android:color/black" />
+
+   <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/battle"
+       android:id="@+id/battle"
+       android:layout_gravity="center_horizontal"
+       android:onClick="onClick"
+       android:textSize="50dp"
+       android:textColor="@android:color/black" />
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/records"
+        android:id="@+id/records"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textSize="50dp"
+        android:textColor="@android:color/black" />
+
+   <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/free"
+       android:id="@+id/free"
+       android:layout_gravity="center_horizontal"
+       android:visibility="gone"
+       android:onClick="onClick"
+       android:textSize="50dp"
+       android:textColor="@android:color/black" />
+
+   <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/concept"
+       android:id="@+id/concept"
+       android:layout_gravity="center_horizontal"
+       android:visibility="gone"
+       android:onClick="onClick"
+       android:textSize="50dp"
+       android:textColor="@android:color/black" />
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textSpace4"
+        android:visibility="gone" />
+
+    <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="@string/textImprovisation"
+       android:id="@+id/textImprovisation"
+       android:layout_gravity="center_horizontal"
+       android:visibility="gone" />
+
+    <SeekBar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/seekBarImprovisation"
+       android:layout_gravity="center_horizontal"
+       android:max="240"
+       android:indeterminate="false"
+       android:progress="120"
+       android:visibility="gone" />
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textTimeImprovisation"
+        android:id="@+id/textTimeImprovisation"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textSpace2"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="@string/textConcept"
+       android:id="@+id/textConcept"
+       android:visibility="gone" />
+
+   <SeekBar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/seekBarConcept"
+       android:layout_gravity="center_horizontal"
+       android:max="30"
+       android:progress="15"
+       android:indeterminate="false"
+       android:visibility="gone" />
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textTimeConcept"
+        android:id="@+id/textTimeConcept"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textSpace"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.myCustomTextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="@string/textParticipants"
+       android:id="@+id/textParticipants"
+       android:layout_gravity="center_horizontal"
+       android:visibility="gone" />
+
+   <SeekBar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/seekBarParticipants"
+       android:layout_gravity="center_horizontal"
+       android:max="20"
+       android:progress="10"
+       android:indeterminate="false"
+       android:visibility="gone" />
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textTimeParticipants"
+        android:id="@+id/textTimeParticipants"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textSpace3"
+        android:visibility="gone"/>
+
+    <com.tecpro.mcapp.CheckBoxPlus
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/record"
+       android:id="@+id/checkBoxRecord"
+       android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:checked="false"
+       android:visibility="gone"
+        android:textColor="@android:color/black"/>
+
+
+
+</LinearLayout>
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:gravity="center|right">
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/next"
+        android:textColor="@android:color/black"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:textSize="50dp"/>
+
+</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutGrande"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    style="@style/AppTheme"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:gravity="center"
+    android:background="@drawable/wall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/songs_list"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:gravity="center|right">
+
+
+    <com.tecpro.mcapp.myCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Play"
+        android:id="@+id/play"
+        android:layout_gravity="bottom"
+        android:onClick="onCick"
+        android:textSize="50dp" />
+</LinearLayout>
+
+</RelativeLayout>

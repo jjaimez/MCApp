@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MCApp</string>
+    <string name="share">Compartir</string>
+    <string name="solo">entrenamiento</string>
+    <string name="battle">batalla</string>
+    <string name="records">grabaciones</string>
+    <string name="free">libre</string>
+    <string name="concept">concepto</string>
+    <string name="textTimeImprovisation">120 segundos</string>
+    <string name="textConcept">Tiempo entre conceptos</string>
+    <string name="textTimeConcept">15 segundos</string>
+    <string name="textParticipants">Tiempo entre MCs</string>
+    <string name="textTimeParticipants">10 segundos</string>
+    <string name="record">grabar</string>
+    <string name="next">siguiente</string>
+    <string name="textImprovisation">tiempo de improvisación</string>
+    <string name="startIn">Comienza en</string>
+    <string name="secondsRemaining">segundos restantes</string>
+    <string name="opponentTurn">El turno del oponente comienza en</string>
+    <string name="done">hecho</string>
+    <string name="delete">eliminar</string>
+    <string name="acceptPermissions">Si usted no acepta los permisos, no será capaz de utilizar la aplicación</string>
+    <string name="seconds">segundos</string>
+    <string name="nextMC">El siguiente MC comienza en:</string>
+</resources>
